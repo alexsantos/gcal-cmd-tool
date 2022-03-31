@@ -2,9 +2,6 @@ import typer
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
-READER_EMAIL = 'francisco.mata.alves@jmellosaude.pt'
-CALENDAR = 'fjcfu9s7ebjrfgtkp8e6qt7i4o@group.calendar.google.com'
-
 app = typer.Typer()
 
 
