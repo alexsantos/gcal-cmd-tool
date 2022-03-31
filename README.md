@@ -23,13 +23,13 @@ Returns the rules in the access control list for the calendar.
 ```bash
 $ python3 gcal-cmd-tool.py acl list [OPTIONS] CALENDAR
 ```
-####insert
-Creates an access control rule. 
-####delete
+#### insert
+Creates an access control rule.
+#### delete
 Deletes an access control rule. 
 
 ### Calendars
-####get
+#### get
 Returns metadata for a calendar. 
-####delete
+#### delete
 Deletes a secondary calendar.
